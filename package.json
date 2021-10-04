@@ -1,0 +1,59 @@
+{
+  "name": "teste-react-visie",
+  "version": "0.0.0",
+  "private": false,
+  "dependencies": {
+    "@babel/core": "7.15.5",
+    "@babel/runtime": "7.15.4",
+    "@emotion/react": "11.4.1",
+    "@emotion/styled": "11.3.0",
+    "@mui/icons-material": "^5.0.0-rc.0",
+    "@mui/material": "^5.0.0-rc.0",
+    "@types/react": "17.0.21",
+    "moment": "2.29.1",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "uuid": "8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "pretest": "jest --clearCache",
+    "test": "react-scripts test --coverage --watchAll --ci --verbose",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "6.1.0",
+    "eslint-import-resolver-alias": "1.1.2",
+    "eslint-plugin-css-modules": "^2.11.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "22.15.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "faker": "^4.1.0",
+    "jest": "24.9.0",
+    "jest-css-modules-transform": "2.5.0",
+    "jest-extended": "^0.11.5",
+    "prettier": "^1.19.1",
+    "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
